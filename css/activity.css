@@ -1,0 +1,89 @@
+#article_list_activity{
+	background: #fff;
+	padding-bottom: 1rem;
+}
+.bannerAd{
+	display: block;	
+}
+/*common style end*/
+.arcList{
+	padding: 0 .3rem;
+}
+.arcList li{
+	padding:  .65rem 0 .25rem;
+	border-bottom: 1px #d9d9d9 solid;
+}
+.arcList li:last-child{
+	border-bottom: none;
+}
+.arcList li a{
+	display:block;
+}
+.articleDesc{
+	width: 100%;
+	margin-bottom: .5rem;
+}
+.arcText{
+	font-size: .6rem;
+	color: #7b7b7b;
+	line-height: 1rem;
+}
+.arcText h3{
+	width: 100%;
+	font-size: .75rem;
+	color: #000000;
+	margin-bottom: .4rem;
+}
+.litpic{
+	width: 4.25rem;
+	height: 4.25rem;
+	margin-left: .85rem;
+	background-position: center;
+	background-size: cover;
+}
+.arcData span{
+	padding: .25rem 0 .25rem 1.2rem;
+	font-size: .6rem;
+	color: #7b7b7b;
+}
+.arcData .viewNum{
+	float: left;
+	background: url(../images/eyeIcon.png) left no-repeat;
+	background-size: .9rem;
+}
+.arcData .pubDate{
+	float: right;
+	background: url(../images/pubdateIcon.png) left no-repeat;
+	background-size: .9rem;
+}
+/*list style end*/
+
+.articleBody{
+	padding: .75rem .3rem 1rem;
+}
+.articleBody h1{
+	color: #1d1d1d;
+	font-size: .75rem;
+	line-height: 1rem;
+	margin-bottom: .5rem;
+}
+.articleBody .arcData .pubDate{
+	float: left;
+	margin-left: 1.65rem;
+	background: url(../images/pubdateIcon.png) left no-repeat;
+	background-size: .9rem;
+}
+.articleBody .articleArea{
+	padding-top: .7rem;
+}
+.articleBody .articleArea{
+	font-size: .6rem;
+	color: #1d1d1d;
+	line-height: 1rem;
+}
+.articleBody .articleArea img{
+	margin: .5rem 0;
+}
+.articleBody .articleArea p{
+	margin-bottom: .6rem;
+}

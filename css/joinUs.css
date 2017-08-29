@@ -1,0 +1,55 @@
+.contact{
+	padding: 2rem 1.4rem 1.05rem;
+	background: url(../images/blueBg.jpg) repeat-y;
+	background-size: contain;
+	color: #fff;
+	text-align: center;
+}
+.contact h2{
+	font-size: 1rem;
+	font-weight: bold;
+	line-height: 1rem;
+	margin-bottom: .6rem;
+}
+.contact p{
+	font-size: .6rem;
+	line-height: 1.05rem;
+}
+.phoneNum{
+	width: 10.75rem;
+	height: 2.5rem;
+	margin: 1.2rem auto 0;
+	text-align: left;
+}
+.phoneNum img{
+	width: 2.245rem;
+	margin-right: .9rem;
+}
+.phoneNum i{
+	font-size: .6rem;
+}
+.phoneNum a{
+	display: block;
+	font-size: 1rem;
+	color: #fff;
+	margin-top: .25rem;
+}
+.ecodes{
+	width: 10.1rem;
+	margin: 1.4rem auto 0;
+}
+.ecodeBox{
+	width: 4.3rem;
+	text-align: center;
+	color: #fff;
+	font-size: .6rem;
+}
+.ecodeBox:first-child{
+	float: left;
+}
+.ecodeBox:last-child{
+	float: right;
+}
+.ecodeBox img{
+	margin-bottom: .5rem;
+}
