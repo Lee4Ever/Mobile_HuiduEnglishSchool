@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>慧读国际——高端少儿英语品牌</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/resetMobile.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+</head>
+
+<body>
+<header class="displayBox dbAlign">
+	<a href="#" class="logo">高端少儿英语品牌</a>
+	<img class="headerMid boxFlex" src="images/header_text.gif"></div>
+	<a href="#" class="indexBtn boxSize">首页</a>
+</header>
+
+<nav class="clearFix">
+	<a href="#">课程介绍</a>
+	<a href="#">集团介绍</a>
+	<a href="#">活动资讯</a>
+	<a href="#">幼小衔接</a>
+	<a href="#">加盟合作</a>
+	<a href="#">联系我们</a>
+</nav>
+<!--Header & Nav End-->
+<div class="indexBanner">
+	<div class="swiper-wrapper">
+		<div class="swiper-slide"><img src="images/banner1.jpg"></div>
+    	<div class="swiper-slide"><img src="images/banner1.jpg"></div>
+    	<div class="swiper-slide"><img src="images/banner1.jpg"></div>
+	</div>
+	<div class="swiper-pagination"></div>
+</div>
+<!--swiperJs End-->
+<section id="indexIntro">
+	<div class="secBox secOne">
+		<img class="secTitle" src="images/partTitle_1.gif">
+		<div class="secContainer">
+			<img src="images/lessions_01.jpg">
+			<img src="images/lessions_02.jpg">
+			<img src="images/lessions_03.jpg">
+			<img src="images/lessions_04.jpg">
+			<img src="images/lessions_05.jpg">
+		</div>
+	</div>
+	<!--课程设置 end-->
+	<div class="secBox secTwo">
+		<img class="secTitle" src="images/partTitle_2.gif">
+		<div class="companies clearFix">
+			<div class="compBox">
+				<div class="compLogo displayBox dbAlign"><img src="images/comp_1.png"></div>
+				<h3>高端少儿英语品牌</h3>
+			</div>
+			<div class="compBox">
+				<div class="compLogo displayBox dbAlign"><img src="images/comp_2.png"></div>
+				<h3>全球三大阅读标准<br />体系定制者之一</h3>
+			</div>
+			<div class="compBox">
+				<div class="compLogo displayBox dbAlign"><img src="images/comp_3.png"></div>
+				<h3>世界三大英语语言<br />教材开发商之一</h3>
+			</div>
+		</div>
+	</div>
+	<!--合作单位 end-->
+	<div class="secBox secThree">
+		<img class="secTitle" src="images/partTitle_3.gif">
+		<ul class="ourAdv clearFix">
+			<li>
+				<img src="images/adv_1.jpg">
+				<p>强强联合全球先进的教育资源</p>
+			</li>
+			<li>
+				<img src="images/adv_2.jpg">
+				<p>用绘本阅读培养<br />孩子英语思维</p>
+			</li>
+			<li>
+				<img src="images/adv_3.jpg">
+				<p>TPRS教学</p>
+			</li>
+			<li>
+				<img src="images/adv_4.jpg">
+				<p>MIND MAP<br />培养逻辑思维</p>
+			</li>
+			<li>
+				<img src="images/adv_5.jpg">
+				<p>与学校的课程<br />无缝衔接</p>
+			</li>
+			<li>
+				<img src="images/adv_6.jpg">
+				<p>课后服务全方位</p>
+			</li>
+		</ul>
+	</div>
+	<!--优势 end-->
+	<div class="msgBox">
+		<h2>欢迎访问慧读国际总部官网</h2>
+		<form>
+			<input type="text" placeholder="姓名" required="required" />
+			<input type="tel" placeholder="电话" required="required" />
+			<input type="text" placeholder="备注" required="required" />
+			<p>留下姓名及联系方式马上获取试听机会</p>
+			<input class="submitBtn" type="submit" value="提交">
+		</form>
+	</div>
+</section>
+<!--section end-->
+<footer>
+    <p>Copyright©北京志成博远科技有限公司 </p>
+    <p>隐私声明 | 用户协议 | 京ICP备16030144号-1 </p>
+    <p>北京市海淀区志新路41号</p>
+</footer>
+</body>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/flex.js"></script>
+<script type="text/javascript" src="js/swiper-3.3.1.min.js" ></script>
+<script> 
+	var mySwiper = new Swiper('.indexBanner', {
+		autoplay: 5000,//可选选项，自动滑动
+		loop: true,//循环滚动
+		pagination : '.swiper-pagination',//指定分页器
+	})
+</script>
+</html>

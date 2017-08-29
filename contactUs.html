@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>慧读国际——高端少儿英语品牌</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/resetMobile.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/contactUs.css"/>
+</head>
+
+<body>
+<header class="displayBox dbAlign">
+	<a href="#" class="logo">高端少儿英语品牌</a>
+	<img class="headerMid boxFlex" src="images/header_text.gif"></div>
+	<a href="#" class="indexBtn boxSize">首页</a>
+</header>
+<nav class="clearFix">
+	<a href="#">课程介绍</a>
+	<a href="#">集团介绍</a>
+	<a href="#">活动资讯</a>
+	<a href="#">幼小衔接</a>
+	<a href="#">加盟合作</a>
+	<a href="#" class="actNav">联系我们</a>
+</nav>
+<!--head end-->
+<a href="#" class="bannerAd">
+	<img src="images/bannerAd.jpg">
+</a>
+<section id="contactUs">
+	<div class="posiBtns clearFix">
+		<span class="selected">学院路</span>
+		<span>望京</span>
+		<span>五棵松</span>
+		<span>天安门</span>
+		<span>国贸</span>
+		<span>回龙观</span>
+	</div>
+	<div class="addressBox">
+		<ul class="addressList">
+			<li class="show">
+				<h3>学院路校区</h3>
+				<div class="map">
+					<img src="images/map_1.jpg">
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon posiIcon"></i>
+					<p class="boxFlex">地址：北京还海淀区志新路41号（梦溪宾馆向东150米）</p>
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon telIcon"></i>
+					<p class="boxFlex">电话：400-050-8837</p>
+				</div>
+			</li>
+			<li>
+				<h3>望京校区</h3>
+				<div class="map">
+					<img src="images/map_1.jpg">
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon posiIcon"></i>
+					<p class="boxFlex">地址：北京还海淀区志新路41号（梦溪宾馆向东150米）</p>
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon telIcon"></i>
+					<p class="boxFlex">电话：400-050-8837</p>
+				</div>
+			</li>
+			<li>
+				<h3>五棵松校区</h3>
+				<div class="map">
+					<img src="images/map_1.jpg">
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon posiIcon"></i>
+					<p class="boxFlex">地址：北京还海淀区志新路41号（梦溪宾馆向东150米）</p>
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon telIcon"></i>
+					<p class="boxFlex">电话：400-050-8837</p>
+				</div>
+			</li>
+			<li>
+				<h3>天安门校区</h3>
+				<div class="map">
+					<img src="images/map_1.jpg">
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon posiIcon"></i>
+					<p class="boxFlex">地址：北京还海淀区志新路41号（梦溪宾馆向东150米）</p>
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon telIcon"></i>
+					<p class="boxFlex">电话：400-050-8837</p>
+				</div>
+			</li>
+			<li>
+				<h3>国贸校区</h3>
+				<div class="map">
+					<img src="images/map_1.jpg">
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon posiIcon"></i>
+					<p class="boxFlex">地址：北京还海淀区志新路41号（梦溪宾馆向东150米）</p>
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon telIcon"></i>
+					<p class="boxFlex">电话：400-050-8837</p>
+				</div>
+			</li>
+			<li>
+				<h3>回龙观校区</h3>
+				<div class="map">
+					<img src="images/map_1.jpg">
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon posiIcon"></i>
+					<p class="boxFlex">地址：北京还海淀区志新路41号（梦溪宾馆向东150米）</p>
+				</div>
+				<div class="addressInfo displayBox dbAlign">
+					<i class="addressIcon telIcon"></i>
+					<p class="boxFlex">电话：400-050-8837</p>
+				</div>
+			</li>
+		</ul>
+	</div>	
+</section>
+<footer>
+	<p>Copyright©北京志成博远科技有限公司 </p>
+	<p>隐私声明 | 用户协议 | 京ICP备16030144号-1 </p>
+    <p>北京市海淀区志新路41号</p>
+</footer>
+</body>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/flex.js"></script>
+<script>
+	$('.posiBtns span').on('touchend',function(){
+		var i = $(this).index()+1;	//获取当前展示校区序号
+		$(this).addClass('selected').siblings().removeClass('selected');	//为被选中校区按钮添加被选中样式
+		$('.addressList li:nth-child('+i+')').fadeIn().siblings().fadeOut();	//被选中校区地址详情展示，其余隐藏
+	})
+</script>
+
+</html>
